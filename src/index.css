@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8f8f8;
+}
+.bgnavbare {
+  background-color: rgb(56, 58, 53);
+}
+.titre {
+  color: white;
+}
+.titreplate {
+  color: rgb(32, 50, 50);
+  letter-spacing: 1px;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
+.underline {
+  margin-top: 6px;
+  height: 9px;
+  width: 219px;
+  border-radius: 12px;
+  background-color: black;
+}
+.contente {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categories {
+  border-radius: 4px;
+  width: 60px;
+  height: 4vh;
+  border: none;
+  margin-left: 6px;
+}
+.categories:hover {
+  background-color: antiquewhite;
+  transition: 0.5s;
+}
+.cardewidth {
+  background-color: red;
+  width: 343px;
+}
+.img-item {
+  height: 121px;
+  width: 121px;
+}
